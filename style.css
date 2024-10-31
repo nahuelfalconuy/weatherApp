@@ -1,0 +1,48 @@
+ body{
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: rgb(67, 105, 177);
+    color: whitesmoke;
+  }
+
+  .container{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(49, 87, 158);
+    box-shadow: 0 2px 4px rgb(63, 62, 62);
+  }
+
+  h1{
+    color: white;
+  }
+
+  input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+  }
+
+  input[type="text"]::placeholder{
+    text-align: center;
+  }
+
+  button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(212, 212, 53);
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  button:active{
+    background-color: white;
+  }
+
+  #responseData{
+    margin-top: 25px;
+    font-size: 20px;
+  }
