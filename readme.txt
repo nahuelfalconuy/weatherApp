@@ -18,7 +18,6 @@ Aplicación web que permite consultar el clima actual de una ciudad utilizando l
 
    ```bash
    git clone git@github.com:nahuelfalconuy/weatherApp.git
-```
 
 2. 🔐 Configurá tu clave de API:
  Generá tu API Key gratuita desde OpenWeatherMap.
